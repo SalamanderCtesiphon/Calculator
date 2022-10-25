@@ -1,1 +1,1 @@
-# Calculator
+A repository for the calculator project.
