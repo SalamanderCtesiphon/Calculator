@@ -11,6 +11,7 @@
     align-items: center;
     flex-direction: column;
     background-color: cadetblue;
+    font-size: 100%;
 }
 h2 {
     margin-bottom: 10vh;
@@ -30,15 +31,19 @@ h2 {
 }
 
 .screen {
-    height: 16vh;
+    height: 10vh;
     width: 18vw;
     border: 1px solid black;
     border-radius: 10px;
     background-color:  rgb(218, 214, 214);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 2em;
 }
 
 .button-area {
-    height: 35vh;
+    height: 40vh;
     width: 18vw;
     border: 1px solid black;
     border-radius: 10px;
@@ -46,7 +51,7 @@ h2 {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 2vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     
 }
@@ -58,9 +63,10 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 1vh;
     background-color: rgb(199, 190, 190);
+    font-size: 1em;
     
 }
 
