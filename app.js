@@ -24,7 +24,26 @@ const divide = (firstArgument, secondArgument) => {
     return firstArgument / secondArgument;
 }
 
-const arr = [];
+let operator = '';
+let result = null;
+
+//creating the operate function
+const operate = (firstArgument, secondArgument, operator) => {
+    if (operator === add) {
+        result = add(firstArgument, secondArgument);
+        return result;
+    } else if (operator === subtract) {
+        result = subtract(firstArgument, secondArgument);
+        return result;
+    } else if (operator === multiply) {
+        result = multiply(firstArgument, secondArgument);
+        return result;
+    } else if (operator === divide) {
+        result = divide(firstArgument, secondArgument);
+        return result;
+    }
+}
+/* const arr = [];
 
 const sum = function(arr) {  
   // Using reduce function to find the sum
@@ -32,21 +51,21 @@ const sum = function(arr) {
       return x + y;
   }, 0);  
   return sum;
-};
-
-//creating the operate function
-const operate =()
-
-
+}; */
+const firstDisplayValue = [];
 
 function one (a) {
     const oneBtn = document.querySelector('.one');
     oneBtn.addEventListener('click', () => {
-        screen.textContent = a;
-        return a;     
+        window.location.reload;
+        firstDisplayValue.push(a);
+        firstDisplayValue.join(",");
+        screen.textContent = firstDisplayValue;
+        return firstDisplayValue;     
     });    
 }
 one(a);
+
 
 function two (b) {
     const twoBtn = document.querySelector('.two');
