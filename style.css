@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: cadetblue;
 }
 h2 {
     margin-bottom: 10vh;
@@ -31,7 +32,7 @@ h2 {
 .screen {
     height: 16vh;
     width: 18vw;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px;
     background-color:  rgb(218, 214, 214);
 }
@@ -39,7 +40,7 @@ h2 {
 .button-area {
     height: 35vh;
     width: 18vw;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px;
     background-color: rgb(233, 221, 199);
     display: grid;
@@ -51,9 +52,9 @@ h2 {
 }
 
 .btn {
-    height: 5vh;
+    height: 5.5vh;
     width: 3vw;
-    border: 2px solid black;
+    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,4 +66,8 @@ h2 {
 p {
     color: wheat;
     margin-top: 10vh;
+}
+
+.one {
+    
 }
