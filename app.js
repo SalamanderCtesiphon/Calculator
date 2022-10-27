@@ -1,4 +1,4 @@
-// operations for grabbing the numbers from the
+/* // operations for grabbing the numbers from the
 //buttons
 const a = 1; const b = 2; const c = 3; const d = 4;
 const e = 5; const f = 6; const g = 7; const h = 8;
@@ -52,7 +52,7 @@ const sum = function(arr) {
   }, 0);  
   return sum;
 }; */
-const firstDisplayValue = [];
+/* const firstDisplayValue = [];
 
 function one (a) {
     const oneBtn = document.querySelector('.one');
@@ -139,4 +139,18 @@ function zero (j) {
         return j;     
     });    
 }
-zero(j);
+zero(j); */ 
+/* let disp = '';
+let x = 0;
+function myFunction(x) {
+    disp = disp + x;
+    if(x == "clr") {
+        document.getElementById(".screen").innerHTML = 0;
+    } else if(disp == "") {
+        document.getElementById(".screen").innerHTML = x;
+    } else {
+        document.getElementById(".screen").innerHTML = disp;
+    }
+} */
+
+const display = document.querySelector('.display-surface');
