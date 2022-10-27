@@ -46,7 +46,7 @@ body {
     padding: 10px;
     word-wrap: break-word;
     word-break: break-all;
-    box-shadow: 0 0 5px;
+    box-shadow: g0 0 5px;
  }
 
 .output .previous-operand {
